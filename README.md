@@ -8,7 +8,7 @@ The image is available precompiled from [binfalse/nsis](https://hub.docker.com/r
 Just mount your NSIS build scripts and resources to `/build` and add the relative path to your NSIS script as an argument.
 Let's assume your script is called `install.nsi`, then you would call
 
-    docker run --rm -v /path/to/resources:/installer/ binfalse/nsis install.nsi
+    docker run --rm -v /path/to/resources:/build binfalse/nsis install.nsi
 
 ## License
 
