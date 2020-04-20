@@ -1,7 +1,7 @@
 # Docker image for NSIS
 
 The [Dockerfile](Dockerfile) contains a recipe for a Docker image, that can be used to build [NSIS](https://nsis.sourceforge.io/Main_Page) installers.
-The image is available precompiled from [binfalse/nsis](https://hub.docker.com/repository/docker/binfalse/nsis).
+The image is available precompiled from [binfalse/nsis](https://hub.docker.com/r/binfalse/nsis).
 
 ## Usage
 
